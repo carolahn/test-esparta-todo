@@ -1,0 +1,16 @@
+.filter__container {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.filtrer__label {
+  margin-top: 10px;
+}
+
+.filter__select {
+  height: 20px;
+  margin-left: 10px;
+}
