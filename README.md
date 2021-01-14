@@ -6,7 +6,7 @@ A tool for task control.
 
 ## Deploy
 
-https://
+https://test-esparta-todo.vercel.app/
 
 ## Installing / Getting started
 
@@ -22,12 +22,6 @@ $ yarn start
 ### Built With
 
 - react (16.8.0)
-- styled-components (5.2.1)
-- react-hook-form (6.11.0)
-- fontawesome (1.2.32)
-- bcriptjs (2.4.3)
-- redux (4.0.5)
-- react-redux (7.2.2)
 
 ### Prerequisites
 
@@ -49,12 +43,32 @@ Runs the application on localhost:3000.
 
 ### Deploying
 
-- [Vercel deploy](https://)
+- [Vercel deploy](https://test-esparta-todo.vercel.app/)
 
 ### Folder Structure
 
 ```shell
-tree
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── assets
+│   │   └── images
+│   ├── components
+│   │   ├── filter
+│   │   ├── header
+│   │   ├── task
+│   │   ├── task-form
+│   │   └── task-list
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── pages
+│   │   └── home
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── test-statement.md
+└── yarn.lock
 ```
 
 ## Style guide
