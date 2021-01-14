@@ -1,0 +1,32 @@
+.task__container {
+  width: 600px;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  margin: 3px auto 3px auto;
+}
+
+.task__text {
+  width: 400px;
+}
+
+.task__button--delete {
+  margin-left: 8px;
+}
+
+@media (max-width: 600px) {
+  .task__container {
+    width: 300px;
+    flex-direction: column;
+  }
+
+  .task__text {
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

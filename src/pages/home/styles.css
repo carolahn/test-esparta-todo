@@ -10,12 +10,13 @@
 .home__filter {
   width: 600px;
   padding: 5px auto 5px auto;
-  background-color: blue;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .home__list {
   width: 600px;
-  background-color: pink;
 }
 
 @media (max-width: 600px) {

@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 
-const Filter = () => {
-  const [selected, setSelected] = useState("todas");
+const Filter = ({ selected, setSelected }) => {
   const handleChange = (event) => {
     setSelected(event.target.value);
   };
@@ -15,8 +14,8 @@ const Filter = () => {
         onChange={(e) => handleChange(e)}
       >
         <option value="todas">Todas</option>
-        <option value="finalizada">Finalizada</option>
-        <option value="pendente">Pendente</option>
+        <option value="finalizada">Finalizadas</option>
+        <option value="pendente">Pendentes</option>
       </select>
     </div>
   );

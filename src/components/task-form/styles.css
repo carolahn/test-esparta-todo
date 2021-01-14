@@ -1,0 +1,46 @@
+.task-form__container {
+  margin-bottom: 12px;
+  width: 600px;
+}
+
+.task-form__container > form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.task-form__input {
+  margin-right: 20px;
+}
+
+.task-form__select {
+  margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .task-form__container {
+    width: 300px;
+  }
+  .task-form__container > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .task-form__input {
+    margin-right: 0px;
+
+    width: 300px;
+  }
+
+  .task-form__select {
+    margin-right: 0px;
+    margin-top: 8px;
+    width: 300px;
+  }
+
+  .task-form__button {
+    width: 300px;
+    margin-top: 8px;
+  }
+}
